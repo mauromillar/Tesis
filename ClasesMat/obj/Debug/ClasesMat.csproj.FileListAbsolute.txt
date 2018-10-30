@@ -1,0 +1,5 @@
+C:\Consultas\Desarrollo\Materiales\ClasesMat\bin\Debug\ClasesMat.dll
+C:\Consultas\Desarrollo\Materiales\ClasesMat\bin\Debug\ClasesMat.pdb
+C:\Consultas\Desarrollo\Materiales\ClasesMat\obj\Debug\ClasesMat.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales\ClasesMat\obj\Debug\ClasesMat.dll
+C:\Consultas\Desarrollo\Materiales\ClasesMat\obj\Debug\ClasesMat.pdb

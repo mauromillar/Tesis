@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="Materiales.Login" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--[if gte IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #0000ff;
+       background-color: #000000;
+      }
+      </style>
+      <![endif]-->
+      <!--[if lt IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #000000;
+       background-color: #ffffff;
+      }
+      </style>
+      <![endif]-->
+	
+	<title>Login</title>
+	<!-- Compiled and minified CSS -->
+  	<link rel="stylesheet" href="layout/styles/materialize.min.css">
+<script> <!--bloquea el boton volver del navegador +-->
+function nobackbutton(){
+ 
+    window.location.hash = "no-back-button";
+
+    window.location.hash = "Again-No-back-button" //chrome
+
+    window.onhashchange = function () { window.location.hash = "no-back-button"; }
+ 
+}
+ </script>
+
+</head>
+<body id="top"  onLoad="nobackbutton();">
+	<!-- header and presentation -->
+	<div class="row">
+		<div class="container app-presentation  ">
+			<h3 class="center-align"></h3>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<center><img src="img/Logo1.jpg"</center>
+			<p class="flow-text center-align"></p>
+		</div>
+	</div>
+	<!-- login panel -->
+    <!-- ####################################################################################################### -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+      <br /> 
+     <br />
+      <br />
+<!-- ####################################################################################################### -->
+
+
+	<!-- importing scripts -->
+	<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/materialize.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SolicitanteForm.master.cs" Inherits="Materiales.Solicitante" %>
+
+<!DOCTYPE html>
+
+<style type="text/css">
+    .auto-style1 {
+        width: 0px;
+        height: 62px;
+    }
+    .auto-style2 {
+        width: 226px;
+        height: 98px;
+    }
+    .auto-style3 {
+        width: 261px;
+        height: 97px;
+    }
+    .auto-style4 {
+        width: 286px;
+        height: 8px;
+    }
+</style>
+
+<html>
+<head>
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--[if gte IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #1111ff;
+       background-color: #11111;
+      }
+      </style>
+      <![endif]-->
+      <!--[if lt IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #000000;
+       background-color: #ffffff;
+      }
+      </style>
+      <![endif]-->
+<title>Gestion </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+       <link rel="stylesheet" href="css/app.css">
+  	<link rel="stylesheet" href="layout/styles/materialize.min.css">
+
+</head>
+
+<body>
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo" class="auto-style3">
+        <p class="auto-style2"><img src="img/Logo1.jpg" class="auto-style2" /></p>
+        <p class="auto-style4">&nbsp;</p>
+    </div>
+      <div></div>
+    <div id="topnav">
+      <ul>
+     <li  class="active"><a href="SolMat.aspx">Solicitante</a></li>
+        <li><a href="SolMat.aspx">Solicitud Materiales</a></li>
+        <li><a href="SolEstado.aspx">Estado Solicitud</a></li>
+          <li><a href="Login.aspx">Salir</a></li>
+    </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+   
+<!-- ####################################################################################################### -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> 
+    </asp:ContentPlaceHolder>
+      
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; Soporte Informatico Chile</p>
+    <br class="clear" />
+  </div>
+    +</div>
+      <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/materialize.min.js"></script>
+</body>
+</html>

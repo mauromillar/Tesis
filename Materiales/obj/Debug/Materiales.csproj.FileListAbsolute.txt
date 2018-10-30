@@ -1,0 +1,7 @@
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.dll.config
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.dll
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Debug\Materiales.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Debug\Materiales.dll
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Debug\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Debug\Materiales.csproj.ResolveComReference.cache

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Materiales/Login.aspx" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Consultas\\Desarrollo\\Materiales\\Materiales\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Consultas\\Desarrollo\\Materiales\\Materiales\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="BDproductosConnectionString-Web.config Connection String" description="" value="Data Source=10.38.60.2;Initial Catalog=BDproductos;Persist Security Info=True;User ID=sa;Password=st0n3k1ng" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Consultas\\Desarrollo\\Materiales\\Materiales\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BDproductosConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

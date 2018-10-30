@@ -1,0 +1,96 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SolicitanteForm.master.cs" Inherits="Materiales.SolicitanteForm" %>
+<!DOCTYPE html>
+
+<style type="text/css">
+    .auto-style1 {
+        width: 146px;
+        height: 62px;
+    }
+    .auto-style2 {
+        width: 226px;
+        height: 98px;
+    }
+    .auto-style3 {
+        width: 261px;
+        height: 97px;
+    }
+    .auto-style4 {
+        width: 286px;
+        height: 8px;
+    }
+</style>
+
+<html>
+<head>
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!--[if gte IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #0000ff;
+       background-color: #000000;
+      }
+      </style>
+      <![endif]-->
+      <!--[if lt IE 8]>
+      <style type="text/javascript">
+      body {
+       color: #000000;
+       background-color: #ffffff;
+      }
+      </style>
+      <![endif]-->
+<title>Materiales</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.jcarousel.setup.js"></script>
+<script> <!--bloquea el boton volver del navegador +-->
+function nobackbutton(){
+ 
+    window.location.hash = "no-back-button";
+
+    window.location.hash = "Again-No-back-button" //chrome
+
+    window.onhashchange = function () { window.location.hash = "no-back-button"; }
+ 
+}
+ </script>
+</head>
+
+<body id="top"  onLoad="nobackbutton();">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo" class="auto-style3">
+        <p class="auto-style1"><img src="img/logotradis.png" class="auto-style2" /></p>
+        <p class="auto-style4">&nbsp;</p>
+    </div>
+      <div></div>
+    <div id="topnav">
+      <ul>
+     <li  class="active"><a href="#">Solicitante</a></li>
+        <li><a href="SolFormu.aspx">Solicitud Materiales</a></li>
+        <li><a href="SolEstado.aspx">Estado Solicitud</a></li>
+        <li><a href="Login.aspx">Salir</a></li>
+    </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+   
+<!-- ####################################################################################################### -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+      <br /> 
+     <br />
+      <br />
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2016 - Falabella.cl</p>
+    <br class="clear" />
+  </div>
+</div>
+    <script src="layout/scripts/materialize.min.js"></script>
+</body>
+</html>

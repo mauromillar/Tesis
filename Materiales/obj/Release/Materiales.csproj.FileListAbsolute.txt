@@ -1,0 +1,27 @@
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.dll.config
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.dll
+C:\Consultas\Desarrollo\Materiales\Materiales\bin\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Release\Materiales.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Release\Materiales.csproj.ResolveComReference.cache
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Release\Materiales.dll
+C:\Consultas\Desarrollo\Materiales\Materiales\obj\Release\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales1\Materiales\bin\Materiales.dll.config
+C:\Consultas\Desarrollo\Materiales1\Materiales\bin\Materiales.dll
+C:\Consultas\Desarrollo\Materiales1\Materiales\bin\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales1\Materiales\obj\Release\Materiales.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales1\Materiales\obj\Release\Materiales.csproj.ResolveComReference.cache
+C:\Consultas\Desarrollo\Materiales1\Materiales\obj\Release\Materiales.dll
+C:\Consultas\Desarrollo\Materiales1\Materiales\obj\Release\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales2\Materiales\bin\Materiales.dll.config
+C:\Consultas\Desarrollo\Materiales2\Materiales\bin\Materiales.dll
+C:\Consultas\Desarrollo\Materiales2\Materiales\bin\Materiales.pdb
+C:\Consultas\Desarrollo\Materiales2\Materiales\obj\Release\Materiales.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales2\Materiales\obj\Release\Materiales.csproj.ResolveComReference.cache
+C:\Consultas\Desarrollo\Materiales2\Materiales\obj\Release\Materiales.dll
+C:\Consultas\Desarrollo\Materiales2\Materiales\obj\Release\Materiales.pdb
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\bin\Materiales.dll.config
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\bin\Materiales.dll
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\bin\Materiales.pdb
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\obj\Release\Materiales.csproj.ResolveComReference.cache
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\obj\Release\Materiales.dll
+C:\Users\kask4r\Desktop\Programacion\Nueva carpeta\Materiales2\Materiales\obj\Release\Materiales.pdb

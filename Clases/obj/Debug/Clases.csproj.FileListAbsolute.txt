@@ -1,0 +1,6 @@
+C:\Consultas\Desarrollo\Materiales\Clases\bin\Debug\Clases.dll.config
+C:\Consultas\Desarrollo\Materiales\Clases\bin\Debug\Clases.dll
+C:\Consultas\Desarrollo\Materiales\Clases\bin\Debug\Clases.pdb
+C:\Consultas\Desarrollo\Materiales\Clases\obj\Debug\Clases.csprojResolveAssemblyReference.cache
+C:\Consultas\Desarrollo\Materiales\Clases\obj\Debug\Clases.dll
+C:\Consultas\Desarrollo\Materiales\Clases\obj\Debug\Clases.pdb

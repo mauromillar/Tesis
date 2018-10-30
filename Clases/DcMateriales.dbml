@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BDproductos" Class="DcMaterialesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=MORCID\SQLEXPRESS;Initial Catalog=BDproductos;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BDproductosConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Solicitud_m" Member="Solicitud_m">
+    <Type Name="Solicitud_m">
+      <Column Name="id_Solicitud" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Usuario" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sku" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Descrip" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Materiales" Member="Materiales">
+    <Type Name="Materiales">
+      <Column Name="ID_materiales" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="REFERENCIA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DESCRIPCION" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CC" Member="CC">
+    <Type Name="CC">
+      <Column Name="Id_CC" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CC" Member="CC1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.CrearMaterial" Method="CrearMaterial">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CC" Parameter="cC" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="usuario" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Sku" Parameter="sku" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Desc" Parameter="desc" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Cant" Parameter="cant" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Estado" Parameter="estado" Type="System.String" DbType="NVarChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DarAprobacion" Method="DarAprobacion">
+    <Parameter Name="estado" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.emailCC" Method="emailCC">
+    <Parameter Name="CODIGO" Parameter="cODIGO" Type="System.String" DbType="NVarChar(10)" />
+    <ElementType Name="emailCCResult">
+      <Column Name="GERENTE" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="CODIGO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ingreso" Method="ingreso">
+    <Parameter Name="usu" Type="System.String" DbType="NVarChar(30)" />
+    <Parameter Name="pas" Type="System.String" DbType="NVarChar(30)" />
+    <ElementType Name="ingresoResult">
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
